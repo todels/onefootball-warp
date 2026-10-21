@@ -1,0 +1,15 @@
+{
+  "name": "perspectivo-warp",
+  "version": "1.11.2",
+  "description": "Perspectivo warp engine (Perspective / Sphere / Arc projections) with SVG and raster helpers, vendored from the Perspectivo Figma plugin.",
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  }
+}
